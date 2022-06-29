@@ -22,10 +22,6 @@ body {
   padding: 50px 25px;
 }
 
-.name_head {
-  color: #fff;
-}
-
 .menu_icon {
   color: #fff;
 }
@@ -33,14 +29,16 @@ body {
 .name_head {
   font-weight: 300;
   font-size: 20px;
+  color: #fff;
 }
 
 .menu_icon > .line {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 35px;
   height: 2px;
   display: block;
 }
+
 .menu_icon > .line + .line {
   margin-top: 7px;
 }
@@ -94,6 +92,7 @@ body {
   background: #edecff;
   filter: blur(40px);
 }
+
 /* @media only screen and (max-width: 415px) {
 
 	.content-area {
