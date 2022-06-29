@@ -2,3 +2,150 @@
   margin: 0;
   padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: #191765;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.menucontainer {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 100px;
+  padding-bottom: 4%;
+}
+
+.menu_icon {
+  color: #fff;
+}
+
+.name_head {
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+}
+
+.part_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.part_section h1 {
+  color: #9391ff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.part_section h2 {
+  color: #dfe1e6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+.part_section .article {
+  color: #b3bac5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-top: 80px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 30px;
+  width: 20%;
+}
+
+.division_section {
+  background: #646369;
+  width: 20%;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.special {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  left: 700px;
+  top: 90px;
+  background: #edecff;
+  filter: blur(40px);
+}
+
+@media only screen and (max-width: 1384px) {
+  .menucontainer {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 4%;
+  }
+
+  .name_head {
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .part_section .article {
+    font-size: 20px;
+    line-height: 25px;
+    width: 40%;
+  }
+
+  .division_section {
+    width: 40%;
+    height: 1px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .menucontainer {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 4%;
+  }
+
+  .name_head {
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .part_section h1 {
+    font-size: 30px;
+  }
+
+  .part_section h2 {
+    font-size: 20px;
+  }
+
+  .part_section .article {
+    font-size: 15px;
+    line-height: 25px;
+    width: 40%;
+  }
+
+  .division_section {
+    width: 50%;
+    height: 1px;
+    margin-top: 40px;
+  }
+}
