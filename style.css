@@ -23,7 +23,7 @@ body {
 }
 
 .name_head, .menu_icon {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .name_head {
@@ -32,7 +32,7 @@ body {
 }
 
 .menu_icon > .line {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 35px;
   height: 2px;
   display: block;
@@ -49,7 +49,7 @@ margin-top: 7px;
 }
 
 .part_section h1 {
-  color: #9391FF;
+  color: #9391ff;
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
   padding-bottom: 20px;
@@ -57,7 +57,7 @@ margin-top: 7px;
 }
 
 .part_section h2 {
-  color: #DFE1E6;
+  color: #dfe1E6;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   padding-top: 20px;
@@ -65,7 +65,7 @@ margin-top: 7px;
 }
 
 .part_section .article {
-  color: #B3BAC5;
+  color: #b3bac5;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   padding-top: 80px;
@@ -87,9 +87,10 @@ margin-top: 7px;
   height: 120px;
   left: 700px;
   top: 90px;
-  background: #EDECFF;
+  background: #edecff;
   filter: blur(40px);
 }
+
 /* @media only screen and (max-width: 415px) {
 
 	.content-area {
