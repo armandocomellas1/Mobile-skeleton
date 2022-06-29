@@ -11,14 +11,14 @@ body {
 
 .container {
   background-color: #191765;
-  width: 20%;
+  width: 100%;
   height: 100vh;
   margin: auto;
 }
 
 .menucontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 25px;
 }
 
@@ -63,6 +63,7 @@ body {
   font-weight: lighter;
   text-align: center;
   line-height: 30px;
+  width: 20%
 }
 
 .division_section {
@@ -85,7 +86,7 @@ body {
 @media only screen and (max-width: 764px) {
   .container {
     background-color: #191765;
-    width: 50%;
+    width: 100%;
     height: 100vh;
     margin: auto;
   }
@@ -109,5 +110,6 @@ body {
     color: #b3bac5;
     font-size: 12px;
     line-height: 30px;
+    width: 50%;
   }
 }
