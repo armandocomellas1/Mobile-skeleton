@@ -73,5 +73,4 @@ A mighty, modern linter that helps you avoid errors and enforce conventions in y
     basicaly it was used some styles from Figma and use it in this project but about the strcutures l have used semanthic order for this such as headers, sections.
 
 ## Author of the project 
-
 Armando Gabriel Comellas
