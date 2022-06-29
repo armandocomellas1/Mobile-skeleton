@@ -22,8 +22,12 @@ body {
   padding: 50px 25px;
 }
 
-.name_head, .menu_icon {
-  color: #ffffff;
+.name_head {
+  color: #fff;
+}
+
+.menu_icon {
+  color: #fff;
 }
 
 .name_head {
@@ -38,7 +42,7 @@ body {
   display: block;
 }
 .menu_icon > .line + .line {
-margin-top: 7px;
+  margin-top: 7px;
 }
 
 .part_section {
@@ -57,7 +61,7 @@ margin-top: 7px;
 }
 
 .part_section h2 {
-  color: #dfe1E6;
+  color: #dfe1e6;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   padding-top: 20px;
@@ -90,7 +94,6 @@ margin-top: 7px;
   background: #edecff;
   filter: blur(40px);
 }
-
 /* @media only screen and (max-width: 415px) {
 
 	.content-area {
