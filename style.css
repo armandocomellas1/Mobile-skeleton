@@ -89,18 +89,22 @@ body {
     height: 100vh;
     margin: auto;
   }
+
   .name_head {
     font-weight: 300;
     font-size: 15px;
   }
+
   .part_section h1 {
     font-size: 20px;
     font-weight: bold;
   }
+
   .part_section h2 {
     color: #dfe1e6;
     font-size: 20px;
   }
+
   .part_section .article {
     color: #b3bac5;
     font-size: 12px;
